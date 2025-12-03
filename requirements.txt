@@ -1,0 +1,11 @@
+pandas
+numpy
+torch
+scikit-learn
+mlflow
+requests
+fastapi
+uvicorn
+pyyaml
+hydra-core
+gradio
