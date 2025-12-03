@@ -22,3 +22,20 @@ This pipeline is compatible with large-scale civic datasets, including:
 git clone https://github.com/yourusername/ai-civic-pipeline.git
 cd ai-civic-pipeline
 pip install -r requirements.txt
+
+✅ How to Use / Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run scripts:
+
+cd src
+python ingest_gdelt.py         # downloads one day’s GDELT events  
+python ingest_nyc.py           # downloads NYC 311 dataset (or adjust URL for another)  
+python ingest_chicago.py       # downloads Chicago dataset  
+
+
+After ingestion, you can load the dataframes and start preprocessing / cleaning / analysis.
