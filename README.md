@@ -39,3 +39,52 @@ python ingest_chicago.py       # downloads Chicago dataset
 
 
 After ingestion, you can load the dataframes and start preprocessing / cleaning / analysis.
+
+
+Getting Started
+
+Clone the repository:
+
+git clone https://github.com/yourusername/agentic-civic-ai.git
+cd agentic-civic-ai
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run data ingestion:
+
+python scripts/ingest_gdelt.py
+python scripts/ingest_nyc.py
+python scripts/ingest_chicago.py
+
+
+Preprocess datasets:
+
+python scripts/preprocessing.py
+
+
+Run training experiments:
+
+python experiments/run_experiment.py
+
+
+Launch API (optional):
+
+uvicorn deployment/api:app --reload
+
+Contribution
+
+Contributions are welcome! This pipeline is designed to be modular and extensible for:
+
+Multi-agent experiments on civic datasets
+
+Novel model evaluation metrics
+
+Interpretability and transparency research
+
+License
+
+This project is open-source and released under the MIT License.
